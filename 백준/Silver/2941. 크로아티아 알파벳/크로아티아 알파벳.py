@@ -1,0 +1,11 @@
+list = []
+word = input()
+word1 = word.replace('c=', '0')
+word2 = word1.replace('c-', '0')
+word3 = word2.replace('dz=', '0')
+word4 = word3.replace('d-', '0')
+word5 = word4.replace('lj', '0')
+word6 = word5.replace('nj', '0')
+word7 = word6.replace('s=', '0')
+word8 = word7.replace('z=', '0')
+print(len(word8))
